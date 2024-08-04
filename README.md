@@ -44,3 +44,22 @@ conda activate spotify_recomm
 pip install -r requirements.txt
 ```
 
+## Run the app.py
+```bash
+# Finally run the following command
+python app.py
+```
+
+Now,
+```bash
+open up you local host and port
+```
+
+# Dataset
+I've used the Spotify Million Playlist Dataset: https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge
+
+I've used Content Based Recommendation System for the above project.
+![image](https://user-images.githubusercontent.com/107134115/201203569-6bcd14fd-6704-4ad7-9577-44095bd65f74.png)
+
+### Reference
+- https://medium.com/analytics-vidhya/music-recommender-system-part-2-ff4c3f54cba3
