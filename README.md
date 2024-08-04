@@ -23,3 +23,24 @@ auth_manager = SpotifyClientCredentials(client_id=spotify_details['Client_id'],
                                         client_secret=spotify_details['client_secret'])
 sp = spotipy.client.Spotify(auth_manager=auth_manager)
 ```
+
+# STEPS:
+
+## STEP 01: Clone the repository
+
+```bash
+git clone https://github.com/charan-613/Spotify_Recommendation_System.git
+```
+
+## STEP 02: create and activate conda environment
+
+```bash
+conda create -n spotify_recomm python=3.9 -y
+conda activate spotify_recomm
+```
+
+## STEP 03: install requirements.txt
+```bash
+pip install -r requirements.txt
+```
+
